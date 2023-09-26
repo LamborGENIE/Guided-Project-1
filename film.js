@@ -17,8 +17,8 @@ addEventListener('DOMContentLoaded', () => {
     director = document.querySelector('span#director');
     release_date = document.querySelector('span#release_date');
     opening_crawl = document.querySelector('span#opening_crawl');
-    character_listUl = document.querySelector('#character_list>ul');
-    planet_listUl = document.querySelector('#planet_list>ul');
+    character_listUl = document.querySelector('#characters>ul');
+    planet_listUl = document.querySelector('#planets>ul');
     const sp = new URLSearchParams(window.location.search)
     const id = sp.get('id')
     getFilm(id)
